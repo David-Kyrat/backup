@@ -1,0 +1,4 @@
+#!/bin/bash
+7z a -tzip -mem=AES256 -p encrypted.zip backup.md	
+cp backup.md ../backup.md.bak
+rm backup.md
